@@ -1,38 +1,69 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home .navbar , .about .navbar {
+  background: rgba(255, 247, 237, 1);
+ 
+}
+.home-link{
+  font-family: Inter;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home .navbar .links .link , .about .navbar .links .link:nth-of-type(2){
+  color: rgba(77, 77, 77, 1) !important;
+
+}
+.about .navbar .links .link:nth-of-type(1) {
+  color: rgba(22, 22, 22, 1);
+  border-bottom: 1px solid rgba(22, 22, 22, 1);
+}
+.home .home-body {
+  background-image: url('./images/home.jpg');
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-position: center; /* Center the image */
+  height: 75vh; /* Full height */
+  
+}
+.home .home-body button {
+  background: rgba(255, 140, 56, 1);
+
+}
+.home footer , .about footer{
+  background-color: rgba(37, 37, 37, 1);
+  height: 15vh;
+  color: rgba(170, 170, 170, 1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about .img {
+  background-image: url('./images/about.jpg');
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-position: center; /* Center the image */
+  height: 70vh;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.about-text  {
+  max-width: 100vh;
+  
 }
+.about-text h1 {
+  font-size: 38px;
+  
+}
+.about-text p {
+  color: rgba(22, 22, 22, 1);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.explorer-vans {
+  background-color: rgba(255, 204, 141, 1);
+  max-width: 100vh;
+}
+.explorer-vans button, .explorer-vans button:hover {
+  background-color: rgba(22, 22, 22, 1);
 }
