@@ -3,7 +3,7 @@ import './App.css';
 import About from './About';
 import Home from './Home';
 import Vans from './Vans';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faCoffee, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 // import {faLinkedin, faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons';
