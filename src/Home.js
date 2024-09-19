@@ -11,7 +11,7 @@ const Home = () => {
                     <Link className=" home-link fs-1 fw-bolder mt-1 text-decoration-none" to="/">#VANLIFE</Link>
                     <div className="links d-flex gap-4">
                         <Link className="link text-decoration-none fw-bold fs-3" to="/about">About</Link>
-                        <Link className="link text-decoration-none fw-bold fs-3" to="/vans">Vans</Link>
+                        <Link className="link text-decoration-none fw-bold fs-3" to="/vansPage">Vans</Link>
                     </div>
                 </div>
 
