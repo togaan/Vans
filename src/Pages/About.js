@@ -1,21 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 
 const About = () => {
     return (
         <div className="about ">
-            <nav className="navbar p-4">
-                <div className="container">
-                    <Link className=" home-link fs-1 fw-bolder mt-1 text-decoration-none" to="/">#VANLIFE</Link>
-                   
-                    <div className="links d-flex gap-4">
-                        <Link className="link text-decoration-none fw-bold fs-3" to="/about">About</Link>
-                        <Link className="link text-decoration-none fw-bold fs-3" to="/vansPage">Vans</Link>
-                    </div>
-                </div>
-            </nav>
-
+            
             <div className="img"></div>
 
             <div className="about-text pt-5 ps-5 pe-4 ">
@@ -38,8 +28,6 @@ const About = () => {
                 </div>
             </div>
             
-
-            <footer className="text-white text-center pt-5 fs-4">Ⓒ 2022 #VANLIFE</footer>
         </div>
     )
 }

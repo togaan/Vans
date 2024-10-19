@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.home .navbar , .about .navbar {
+nav {
   background: rgba(255, 247, 237, 1);
  
 }
@@ -13,15 +13,19 @@
   color: rgba(0, 0, 0, 1);
 
 }
-
-.home .navbar .links .link , .about .navbar .links .link:nth-of-type(2){
-  color: rgba(77, 77, 77, 1) !important;
-
-}
-.about .navbar .links .link:nth-of-type(1) {
-  color: rgba(22, 22, 22, 1);
+.active {
+  color: rgba(22, 22, 22, 1)!important;
   border-bottom: 1px solid rgba(22, 22, 22, 1);
 }
+.link:hover {
+  color: rgba(22, 22, 22, 1)!important;
+  border-bottom: 1px solid rgba(22, 22, 22, 1);
+}
+.navbar .links .link {
+  color: rgba(77, 77, 77, 1) ;
+}
+
+
 .home .home-body {
   background-image: url('./images/home.jpg');
   background-size: cover; /* Cover the entire viewport */
@@ -34,12 +38,14 @@
   background: rgba(255, 140, 56, 1);
 
 }
-.home footer , .about footer{
+footer{
   background-color: rgba(37, 37, 37, 1);
   height: 15vh;
   color: rgba(170, 170, 170, 1);
 }
-
+.vans {
+  min-height: 75vh!important;
+}
 .about .img {
   background-image: url('./images/about.jpg');
   background-size: cover; /* Cover the entire viewport */
@@ -66,4 +72,267 @@
 }
 .explorer-vans button, .explorer-vans button:hover {
   background-color: rgba(22, 22, 22, 1);
+}
+.names {
+  margin-top: -10px!important;
+}
+
+.names .search:nth-of-type(4) {
+  background-color: white!important;
+  color: rgb(146, 196, 236);
+  border-bottom: 1px solid rgb(138, 189, 231);
+}
+.clear-filters {
+  border: none!important;
+  border-bottom: 1px solid black!important;
+  background-color: white!important;
+}
+.names .search {
+  background-color: rgba(255, 234, 208, 1)!important;
+  color: rgba(77, 77, 77, 1)!important;
+  border: none!important;
+}
+
+.simple {
+  background-color: rgba(253, 114, 0, 0.945)!important;
+ }
+ .rugged {
+   background-color: rgb(25, 127, 141)!important;
+ }
+ .luxury {
+   background-color: rgba(22, 22, 22, 1)!important;
+ }
+ .names .search {
+  background-color: rgba(255, 234, 208, 1)!important;
+  color: rgba(77, 77, 77, 1)!important;
+  border: none!important;
+}
+
+.names .search:nth-of-type(1):hover {
+  background-color: rgba(253, 114, 0, 0.945)!important;
+  color: white!important;
+}
+.names .search:nth-of-type(2):hover {
+  background-color: rgba(22, 22, 22, 1)!important;
+  color: white!important;
+}
+.names .search:nth-of-type(3):hover {
+  background-color: rgb(25, 127, 141)!important;
+  color: white!important;
+}
+.names .search:nth-of-type(4):hover {
+  border-bottom: 1px solid black!important;
+ 
+}
+
+.explorer-van .goBack-link h4{
+  border-bottom: 1px solid rgba(32, 31, 29, 1);
+  color: rgb(10, 9, 8)!important;
+}
+.explorer-van .goBack-link .back-icon{
+  color: rgba(133, 133, 133, 1);
+}
+
+.info p {
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .explorer-van footer {
+    margin-top: 150px!important;
+  }
+}
+
+.rent-van button, .rent-van button:hover {
+  background-color: rgba(255, 140, 56, 1);
+}
+
+.dashboard {
+  background-color: rgba(255, 247, 237, 1)!important;
+}
+.link {
+  color: rgba(77, 77, 77, 1);
+}
+.dashboard-info {
+  background-color: rgba(255, 234, 208, 1);
+}
+.review-score {
+  background-color: rgba(255, 221, 178, 1);
+}
+.host {
+  min-height: 65vh!important;
+  background: rgba(255, 247, 237, 1);
+}
+
+.host-vans-item {
+  height: 120px!important;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.empty-page {
+  min-height: 73vh!important;
+  background: rgba(255, 247, 237, 1)!important;
+}
+.empty-page-link {
+  background-color: black!important;
+  
+}
+
+.login, .logout, .explorer-van, .create-acount {
+  min-height: 75vh!important;
+  background: rgba(255, 247, 237, 1)!important;
+}
+
+.login-form {
+  max-width: 600px!important;
+}
+.login-form button {
+  background-color: rgba(255, 140, 56, 1)!important;
+}
+.login-form > input {
+  border: 1px solid rgba(209, 213, 219)!important;
+  height: 40px!important;
+  text-indent: 10px!important;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05)!important;
+  font-weight: 400!important;
+}
+
+.host-reviews {
+  padding-inline: 26px;
+  color: #161616;
+}
+
+.host-reviews .top-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.host-reviews .top-text > h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.host-reviews .top-text > p {
+  margin: 0;
+  color: #4d4d4d;
+}
+
+.host-reviews .top-text > p span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.host-reviews > img {
+  margin-bottom: 36px;
+}
+
+.host-reviews .review {
+  margin-block: 25px;
+}
+
+.host-reviews .review .info {
+  display: flex;
+}
+
+.host-reviews .review .name {
+  color: #161616;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.host-reviews .review .date {
+  color: #8c8c8c;
+}
+
+.host-reviews hr {
+  background-color: #c7c7c7;
+  height: 1px;
+  border: 0;
+}
+
+.host-reviews .review-star {
+  color: #ff8c38!important;
+  margin-right: 5px;
+}
+
+.progres {
+  height: 10px!important;
+  background-color: rgba(255, 140, 56, 1);
+}
+
+.rate:not(:first-of-type) div {
+  background-color: rgba(185, 185, 185, 1)!important;
+}
+.rate h4:nth-of-type(1) {
+  white-space: nowrap!important;
+}
+
+.host-income {
+  padding-inline: 26px;
+  color: #161616;
+}
+
+.host-income > p {
+  color: #4d4d4d;
+}
+
+.host-income > p span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.host-income > h2 {
+  font-size: 38px;
+  color: #161616;
+  font-weight: 900;
+}
+
+img.graph {
+  width: 100%;
+  max-width: 500px;
+}
+
+.host-income .info-header > p {
+  color: #4d4d4d;
+}
+
+.host-income .info-header > p span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.host-income .info-header > h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.host-income .transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 31px;
+  padding: 35px 29px;
+  border-radius: 6px;
+}
+.host-income .transaction > h3 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.host-income .transaction > p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.create-acount {
+  color: rgba(255, 140, 56, 1);
 }
